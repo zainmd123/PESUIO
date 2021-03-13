@@ -1,0 +1,42 @@
+@font-face{
+    font-family: 'Pacifico';
+    src: url("Pacifico-Regular.ttf")
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+body{
+    background : url(grocerylist.jpg) no-repeat top center;
+}
+#add_item{
+    position: absolute; 
+    left: 240px;
+    bottom: 600px;
+}
+#delete_item{
+    position: absolute; 
+    left: 240px;
+    bottom: 500px;
+}
+#update_item{
+    position: absolute; 
+    left: 240px;
+    bottom: 400px;
+}
+#display_list{
+    position: absolute; 
+    left: 240px;
+    bottom: 300px;
+}
+#grocery-list{
+    width: 10%;
+    background-color: greenyellow;
+}
+#list_title{
+    font-family: 'Pacifico';
+    font-size: 20px;
+    font-weight: bold;
+}

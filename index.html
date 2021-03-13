@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+
+    </head>
+    <body>
+        <h1>Welcome to your grocery list</h1>
+    <form>
+        <label id = "Itm"> Item</Label><br>
+        <input type="text" id = "itemname"/><br>
+
+        <br>
+
+        <label id = "Qty">Quantity</label><br>
+        <input type = "number" id = "itemqty"/><br>
+        
+        <br>
+
+        <label id = "Del">Id of item to be deleted</label><br>
+        <input id = "delete_id" type = "number"/><br>
+
+        <br>
+
+        <label id = "Upd">Id of item to be updated</label><br>
+        <input id = "update_id" type = "number"/>
+        
+
+    </form>
+
+    <button id = "add_item" onclick= "addItem()" >Add Item</button><br>
+    <button id = "delete_item" onclick = "deleteItem()">Delete Item</button><br>
+    <button id = "update_item" onclick="updateItem()">Update Item</button><br>
+    <button id = "display_list" onclick="getList()">Get List</button>
+
+    
+    <div id = list_title>
+        
+    </div>
+    <ol id = "grocery-list" >
+      
+        
+    </ol> 
+    
+    <script src = https://unpkg.com/axios/dist/axios.min.js></script>
+    <script src = "connection.js" ></script>  
+       
+    </body>
+</html>
